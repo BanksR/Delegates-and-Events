@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52934b25754945f0b5927a2071c6026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInTime: 5
+  fadeInTime: 3
 --- !u!1 &1269043095
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +666,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207096913437182963, guid: b9e891eb2400a49858cb27791f9230ca,
+        type: 3}
+      propertyPath: fadeTime
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9e891eb2400a49858cb27791f9230ca, type: 3}
