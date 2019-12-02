@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59d864ed-aa07-4888-abc0-1e926a7090d1" name="Default" comment="" />
+    <list default="true" id="59d864ed-aa07-4888-abc0-1e926a7090d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/CobwebScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CobwebScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +18,18 @@
       <file leaf-file-name="DelegateScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
-                <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-                <marker date="1575283481069" expanded="true" signature="123:1785" ph="{...}" />
-                <marker date="1575283481069" expanded="false" signature="135:802" ph="##region" />
-                <marker date="1575283481069" expanded="true" signature="817:989" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
-                <marker date="1575283481069" expanded="true" signature="1046:1198" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
-                <marker date="1575283481069" expanded="true" signature="1312:1783" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="1336:1655" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
-                <marker date="1575283481069" expanded="true" signature="1729:1777" ph="{...}" />
+                <marker date="1575297325519" expanded="false" signature="6:78" ph="..." />
+                <marker date="1575297325519" expanded="true" signature="123:1799" ph="{...}" />
+                <marker date="1575297325519" expanded="false" signature="149:816" ph="##region" />
+                <marker date="1575297325519" expanded="true" signature="161:801" ph="/* Delegates can be thought of as a messaging service. The delegate is responsible for delivering ... */" />
+                <marker date="1575297325519" expanded="true" signature="831:1003" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
+                <marker date="1575297325519" expanded="true" signature="1060:1212" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
+                <marker date="1575297325519" expanded="true" signature="1326:1797" ph="{...}" />
+                <marker date="1575297325519" expanded="true" signature="1350:1669" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
+                <marker date="1575297325519" expanded="true" signature="1743:1791" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,20 +38,40 @@
       <file leaf-file-name="SpookyGhostScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="24" column="66" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="66" />
               <folding>
-                <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-                <marker date="1575283481069" expanded="true" signature="126:1957" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="218:860" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="325:554" ph="/* Here is where the magic happens... ... */" />
-                <marker date="1575283481069" expanded="true" signature="630:849" ph="/* Take note of the syntax - We are referencing our static ... */" />
-                <marker date="1575283481069" expanded="true" signature="866:1062" ph="/* Note - our function must have the same return type and number of parameters ... */" />
-                <marker date="1575283481069" expanded="true" signature="1094:1185" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="1220:1671" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="1279:1447" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="1701:1955" ph="{...}" />
-                <marker date="1575283481069" expanded="true" signature="1716:1891" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
+                <marker date="1575297032845" expanded="false" signature="6:78" ph="..." />
+                <marker date="1575297032845" expanded="true" signature="126:1963" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="218:866" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="325:551" ph="/* Here is where the magic happens... ... */" />
+                <marker date="1575297032845" expanded="true" signature="627:855" ph="/* Take note of the syntax - We are referencing our static ... */" />
+                <marker date="1575297032845" expanded="true" signature="872:1068" ph="/* Note - our function must have the same return type and number of parameters ... */" />
+                <marker date="1575297032845" expanded="true" signature="1100:1191" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="1226:1677" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="1285:1453" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="1707:1961" ph="{...}" />
+                <marker date="1575297032845" expanded="true" signature="1722:1897" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WizardScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WizardScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="40" column="93" selection-start-line="39" selection-start-column="9" selection-end-line="40" selection-end-column="93" />
+              <folding>
+                <marker date="1575280890746" expanded="false" signature="6:78" ph="..." />
+                <marker date="1575280890746" expanded="true" signature="121:1405" ph="{...}" />
+                <marker date="1575280890746" expanded="true" signature="227:778" ph="{...}" />
+                <marker date="1575280890746" expanded="true" signature="251:477" ph="/* Here is where the magic happens... ... */" />
+                <marker date="1575280890746" expanded="true" signature="553:772" ph="/* Take note of the syntax - We are referencing our static ... */" />
+                <marker date="1575280890746" expanded="true" signature="790:986" ph="/* Note - our function must have the same return type and number of parameters ... */" />
+                <marker date="1575280890746" expanded="true" signature="1011:1119" ph="{...}" />
+                <marker date="1575280890746" expanded="true" signature="1149:1403" ph="{...}" />
+                <marker date="1575280890746" expanded="true" signature="1164:1339" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
               </folding>
             </state>
           </provider>
@@ -55,17 +80,20 @@
       <file leaf-file-name="CobwebScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CobwebScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state relative-caret-position="560">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding>
-                <marker date="1575296211122" expanded="true" signature="6:100" ph="..." />
-                <marker date="1575296211122" expanded="true" signature="144:932" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="281:504" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="372:442" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="530:576" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="602:930" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="660:896" ph="{...}" />
-                <marker date="1575296211122" expanded="true" signature="709:816" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="6:100" ph="..." />
+                <marker date="1575297312538" expanded="true" signature="144:1691" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="281:1004" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="372:442" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="460:696" ph="/* Here is where the magic happens... ... */" />
+                <marker date="1575297312538" expanded="true" signature="769:997" ph="/* Take note of the syntax - We are referencing our static ... */" />
+                <marker date="1575297312538" expanded="true" signature="1030:1076" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="1102:1689" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="1160:1397" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="1209:1317" ph="{...}" />
+                <marker date="1575297312538" expanded="true" signature="1407:1593" ph="/* To avoid our delivery repeatedly going to the same address, it is required we unsubscribe ... */" />
               </folding>
             </state>
           </provider>
@@ -77,6 +105,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WizardScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CobwebScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,8 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/EventScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UnityEventsSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CobwebScript.cs" />
       </list>
     </option>
@@ -121,6 +150,11 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Delegates And Events" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Delegates And Events" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -163,12 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1575281747312</updated>
       <workItem from="1575281750668" duration="1594000" />
-      <workItem from="1575295953219" duration="266000" />
+      <workItem from="1575295953219" duration="1079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1860000" />
+    <option name="totallyTimeSpent" value="2673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,14 +254,15 @@
         <state relative-caret-position="510">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
-            <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1575283481069" expanded="true" signature="123:1785" ph="{...}" />
-            <marker date="1575283481069" expanded="false" signature="135:802" ph="##region" />
-            <marker date="1575283481069" expanded="true" signature="817:989" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
-            <marker date="1575283481069" expanded="true" signature="1046:1198" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
-            <marker date="1575283481069" expanded="true" signature="1312:1783" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1336:1655" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
-            <marker date="1575283481069" expanded="true" signature="1729:1777" ph="{...}" />
+            <marker date="1575297325519" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575297325519" expanded="true" signature="123:1799" ph="{...}" />
+            <marker date="1575297325519" expanded="false" signature="149:816" ph="##region" />
+            <marker date="1575297325519" expanded="true" signature="161:801" ph="/* Delegates can be thought of as a messaging service. The delegate is responsible for delivering ... */" />
+            <marker date="1575297325519" expanded="true" signature="831:1003" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
+            <marker date="1575297325519" expanded="true" signature="1060:1212" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
+            <marker date="1575297325519" expanded="true" signature="1326:1797" ph="{...}" />
+            <marker date="1575297325519" expanded="true" signature="1350:1669" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
+            <marker date="1575297325519" expanded="true" signature="1743:1791" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -237,73 +272,95 @@
         <state relative-caret-position="360">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1575283481069" expanded="true" signature="126:1957" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="218:860" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="325:554" ph="/* Here is where the magic happens... ... */" />
-            <marker date="1575283481069" expanded="true" signature="630:849" ph="/* Take note of the syntax - We are referencing our static ... */" />
-            <marker date="1575283481069" expanded="true" signature="866:1062" ph="/* Note - our function must have the same return type and number of parameters ... */" />
-            <marker date="1575283481069" expanded="true" signature="1094:1185" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1220:1671" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1279:1447" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1701:1955" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1716:1891" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
+            <marker date="1575297032845" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575297032845" expanded="true" signature="126:1963" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="218:866" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="325:551" ph="/* Here is where the magic happens... ... */" />
+            <marker date="1575297032845" expanded="true" signature="627:855" ph="/* Take note of the syntax - We are referencing our static ... */" />
+            <marker date="1575297032845" expanded="true" signature="872:1068" ph="/* Note - our function must have the same return type and number of parameters ... */" />
+            <marker date="1575297032845" expanded="true" signature="1100:1191" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1226:1677" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1285:1453" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1707:1961" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1722:1897" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EventScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnityEventsSystem.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DelegateScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
-            <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1575283481069" expanded="true" signature="123:1785" ph="{...}" />
-            <marker date="1575283481069" expanded="false" signature="135:802" ph="##region" />
-            <marker date="1575283481069" expanded="true" signature="817:989" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
-            <marker date="1575283481069" expanded="true" signature="1046:1198" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
-            <marker date="1575283481069" expanded="true" signature="1312:1783" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1336:1655" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
-            <marker date="1575283481069" expanded="true" signature="1729:1777" ph="{...}" />
+            <marker date="1575297325519" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575297325519" expanded="true" signature="123:1799" ph="{...}" />
+            <marker date="1575297325519" expanded="false" signature="149:816" ph="##region" />
+            <marker date="1575297325519" expanded="true" signature="161:801" ph="/* Delegates can be thought of as a messaging service. The delegate is responsible for delivering ... */" />
+            <marker date="1575297325519" expanded="true" signature="831:1003" ph="/* Here we define a delegate, it's return type and any required function paramters. ... */" />
+            <marker date="1575297325519" expanded="true" signature="1060:1212" ph="/* Next we create a new instance of the delegate and give it a name. ... */" />
+            <marker date="1575297325519" expanded="true" signature="1326:1797" ph="{...}" />
+            <marker date="1575297325519" expanded="true" signature="1350:1669" ph="/* In this simple example, player input is tested, but this could be triggered by ... */" />
+            <marker date="1575297325519" expanded="true" signature="1743:1791" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnityEventsSystem.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpookyGhostScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="24" column="66" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="66" />
           <folding>
-            <marker date="1575283481069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1575283481069" expanded="true" signature="126:1957" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="218:860" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="325:554" ph="/* Here is where the magic happens... ... */" />
-            <marker date="1575283481069" expanded="true" signature="630:849" ph="/* Take note of the syntax - We are referencing our static ... */" />
-            <marker date="1575283481069" expanded="true" signature="866:1062" ph="/* Note - our function must have the same return type and number of parameters ... */" />
-            <marker date="1575283481069" expanded="true" signature="1094:1185" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1220:1671" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1279:1447" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1701:1955" ph="{...}" />
-            <marker date="1575283481069" expanded="true" signature="1716:1891" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
+            <marker date="1575297032845" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575297032845" expanded="true" signature="126:1963" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="218:866" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="325:551" ph="/* Here is where the magic happens... ... */" />
+            <marker date="1575297032845" expanded="true" signature="627:855" ph="/* Take note of the syntax - We are referencing our static ... */" />
+            <marker date="1575297032845" expanded="true" signature="872:1068" ph="/* Note - our function must have the same return type and number of parameters ... */" />
+            <marker date="1575297032845" expanded="true" signature="1100:1191" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1226:1677" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1285:1453" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1707:1961" ph="{...}" />
+            <marker date="1575297032845" expanded="true" signature="1722:1897" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WizardScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="93" selection-start-line="39" selection-start-column="9" selection-end-line="40" selection-end-column="93" />
+          <folding>
+            <marker date="1575280890746" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575280890746" expanded="true" signature="121:1405" ph="{...}" />
+            <marker date="1575280890746" expanded="true" signature="227:778" ph="{...}" />
+            <marker date="1575280890746" expanded="true" signature="251:477" ph="/* Here is where the magic happens... ... */" />
+            <marker date="1575280890746" expanded="true" signature="553:772" ph="/* Take note of the syntax - We are referencing our static ... */" />
+            <marker date="1575280890746" expanded="true" signature="790:986" ph="/* Note - our function must have the same return type and number of parameters ... */" />
+            <marker date="1575280890746" expanded="true" signature="1011:1119" ph="{...}" />
+            <marker date="1575280890746" expanded="true" signature="1149:1403" ph="{...}" />
+            <marker date="1575280890746" expanded="true" signature="1164:1339" ph="/* To avoid our delivery going to an empty address, it is required we unsubscribe ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CobwebScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="560">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding>
-            <marker date="1575296211122" expanded="true" signature="6:100" ph="..." />
-            <marker date="1575296211122" expanded="true" signature="144:932" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="281:504" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="372:442" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="530:576" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="602:930" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="660:896" ph="{...}" />
-            <marker date="1575296211122" expanded="true" signature="709:816" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="6:100" ph="..." />
+            <marker date="1575297312538" expanded="true" signature="144:1691" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="281:1004" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="372:442" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="460:696" ph="/* Here is where the magic happens... ... */" />
+            <marker date="1575297312538" expanded="true" signature="769:997" ph="/* Take note of the syntax - We are referencing our static ... */" />
+            <marker date="1575297312538" expanded="true" signature="1030:1076" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="1102:1689" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="1160:1397" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="1209:1317" ph="{...}" />
+            <marker date="1575297312538" expanded="true" signature="1407:1593" ph="/* To avoid our delivery repeatedly going to the same address, it is required we unsubscribe ... */" />
           </folding>
         </state>
       </provider>

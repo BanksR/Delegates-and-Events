@@ -19,8 +19,17 @@ public class CobwebScript : MonoBehaviour
             img.color = Color.clear;
             
         }
+        
+        // Here is where the magic happens...
+        // We subscribe our TriggerFadeIn() function to the delegate.
+        // When the delegate sends its message out, TriggerFadeIn()
+        // will be listening for it and trigger accordingly.
 
         DelegateScript.TestDelegate += TriggerFadeIn;
+        
+        // Take note of the syntax - We are referencing our static
+        // delegate variable we created on our DelegateScript.cs Class. Then we use the += to indicate
+        // we wish to subscribe to the delegate messaging service.
 
     }
 
@@ -44,6 +53,9 @@ public class CobwebScript : MonoBehaviour
             yield return null;
         }
 
+        // To avoid our delivery repeatedly going to the same address, it is required we unsubscribe
+        // from the delegate once you know you don't need it anymore. Just like Amazon Prime.
+        
         DelegateScript.TestDelegate -= TriggerFadeIn;
         yield return null;
     }

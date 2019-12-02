@@ -15,13 +15,13 @@ public class SpookyGhostScript : MonoBehaviour
 
         // Here is where the magic happens...
         // We subscribe our BeSpooky() function to the delegate.
-        // When the delegate is sends its message out, BeSpooky()
+        // When the delegate sends its message out, BeSpooky()
         // will be listening for it and trigger accordingly.
         
         DelegateScript.TestDelegate += BeSpooky;
         
         // Take note of the syntax - We are referencing our static
-        // delegate we created on our DelegateScript.cs Class. Then we use the += to indicate
+        // delegate variable we created on our DelegateScript.cs Class. Then we use the += to indicate
         // we wish to subscribe to the delegate messaging service.
     
     }

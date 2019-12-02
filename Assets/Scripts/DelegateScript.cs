@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DelegateScript : MonoBehaviour
 {
-    
+    // Click me...
     #region
     // Delegates can be thought of as a messaging service. The delegate is responsible for delivering
     // messages to all subscribed functions. When the message is sent, subscribed functions respond
